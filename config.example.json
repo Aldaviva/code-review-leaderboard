@@ -1,0 +1,15 @@
+{
+    "crucible": {
+        "baseUri": "http://host:port/context/",
+        "username": "myUsername",
+        "password": "myPassword"
+    },
+    "team": {
+        "members": [
+            "ben"            
+        ]
+    },
+    "server": {
+        "port": 8080
+    }
+}

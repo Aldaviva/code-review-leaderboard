@@ -1,0 +1,31 @@
+{
+    "env": {
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "sourceType": "script"
+    },
+    "rules": {
+        "brace-style"                   : [ "warn", "1tbs"],
+        "comma-dangle"                  : [ "warn", "never" ],
+        "comma-spacing"                 : [ "warn" ],
+        "func-call-spacing"             : [ "warn" ],
+        "indent"                        : [ "warn", 4, { "SwitchCase": 1 }],
+        "keyword-spacing"               : [ "warn" ],
+        "linebreak-style"               : [ "warn", "unix" ],
+        "no-console"                    : [ "off" ],
+        "no-debugger"                   : [ "warn" ],
+        "no-shadow"                     : [ "warn", { "builtInGlobals": true, "hoist": "all", "allow": ["resolve", "reject", "done"] } ],
+        "no-unused-vars"                : [ "warn", { "args": "none" }],
+        "no-whitespace-before-property" : [ "warn" ],
+        "object-curly-spacing"          : [ "warn", "always", { "arraysInObjects": false, "objectsInObjects": false }],
+        "semi"                          : [ "warn", "always" ],
+        "semi-spacing"                  : [ "warn", { "before": false, "after": true }],
+        "sort-vars"                     : [ "warn", { "ignoreCase": true }],
+        "space-before-blocks"           : [ "warn", "always" ],
+        "space-before-function-paren"   : [ "warn", "never" ],
+        "space-infix-ops"               : [ "warn", { "int32Hint": false }],
+        "space-unary-ops"               : [ "warn", { "words": true, "nonwords": false }]
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "linters": {
+        "eslint": {
+            "args": [
+                "--config", "${project}/public/.eslintrc.public.js"
+            ]            
+        }
+    }
+}
